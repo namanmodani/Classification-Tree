@@ -140,3 +140,6 @@ for i in range(len(dataset[0])):
 n_folds = 5
 max_depth = 5
 min_size = 10
+scores = evaluate_algorithm(dataset, decision_tree, n_folds, max_depth, min_size)
+print('Scores: %s' % scores)
+print('Mean Accuracy: %.3f%%' % (sum(scores)/float(len(scores))))
