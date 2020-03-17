@@ -132,3 +132,11 @@ def decision_tree(train, test, max_depth, min_size):
 		predictions.append(prediction)
 	return(predictions)
 
+seed(1)
+filename = 'data_banknote_authentication.csv'
+dataset = load_csv(filename)
+for i in range(len(dataset[0])):
+	str_column_to_float(dataset, i)
+n_folds = 5
+max_depth = 5
+min_size = 10
