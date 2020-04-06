@@ -29,7 +29,11 @@ For simpler understanding, the code can be broken down into:
 # Classification and Regression Tree Algorithm
 
 A. Test CART on Bank Note dataset
+
 B. Load and prepare data
+
 C. Convert string attributes to integers
+
 D. Evaluate algorithm
+
 
