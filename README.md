@@ -29,7 +29,7 @@ For simpler understanding, the code can be broken down into:
 
 13. Make a prediction with a decision tree
 
-# Regression Tree Algorithm
+# Regression Tree Algo
 
 A. Test CART on Bank Note dataset
 
