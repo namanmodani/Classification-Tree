@@ -1,5 +1,5 @@
 # Classification-Tree
-A simple decision tree algorithm.
+A basic decision tree algorithm.
 
 For simpler understanding, the code can be broken down into:
 
@@ -11,14 +11,16 @@ For simpler understanding, the code can be broken down into:
 6. Evaluate an algorithm using a cross validation split
 7. Split a dataset based on an attribute and an attribute value
 8. Calculate the Gini index for a split dataset
-	8.1. count all samples at split point
-	8.2. sum weighted Gini index for each group
+
+  8.1. count all samples at split point
+  8.2. sum weighted Gini index for each group
   8.3. avoid divide by zero
   8.4. score the group based on the score for each class
   8.5. weight the group score by its relative size
 9. Elect the best split point for a dataset
 10. Create a terminal node value
 11. Create child splits for a node or make terminal
+
 	11.1 check for a no split
 	11.2 check for max depth
 	11.3 process left child
